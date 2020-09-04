@@ -1,163 +1,141 @@
-body{
-background-color:black; /* Fond noir */
-color: white;     /* Texte bland */
+body {
+	background-color: black; /* Fond noir */
+	color: white; /* Texte bland */
 }
 
 img {
-	
 }
 
-a{
-color: white;
-text-decoration: none;	
+a {
+	color: white;
+	text-decoration: none;
 }
 
-h2{
-text-align: center;
+h2 {
+	text-align: center;
 }
 
-.hover:hover{ 
-text-decoration: underline; 
-color: gray;
+.hover:hover {
+	text-decoration: underline;
+	color: gray;
 }
 
-
-
-.hover2:hover
-{
-text-decoration: none;
-text-shadow: 2px 2px 2px #aaa;
+.hover2:hover {
+	text-decoration: none;
+	text-shadow: 2px 2px 2px #aaa;
 }
 
-#footer{
-width: 800px;
-height: 150px;
-margin-left: auto;
-margin-right: auto;
-font-size:medium;
-color: white;
-text-decoration: none;
-text-align: center;
+#footer {
+	width: 800px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: medium;
+	color: white;
+	text-decoration: none;
+	text-align: center;
 }
 
-
-#social{
-width: auto;
-height: 50px;
-
+#social {
+	width: auto;
+	height: 50px;
 }
 
-#content{ 
-width: 800px;
-height: auto;
-margin: 0 auto;
+#content {
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
 }
-
 
 #titre {
-width: 800px;
-height: auto;
-color: white;
-font-size: 44px;
-margin-left: auto; 
-margin-right: auto; 
-margin-top: 20px;
-margin-bottom: 20px;
-text-align: center;
-
+	width: 800px;
+	height: auto;
+	color: white;
+	font-size: 44px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
-#galeries{
-width: 600px;
-height: 700px;
-margin-left: auto; 
-margin-right: auto; 
+#galeries {
+	width: 600px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#snapback
-{
-width: 265px;
-height: 320px;
-float: left;
-text-align: center;
-size:3px;
-text-decoration: none;
-
+#snapback {
+	width: 265px;
+	height: 320px;
+	float: left;
+	text-align: center;
+	size: 3px;
+	text-decoration: none;
 }
 
-#sneaker
-{
-width: 265px;
-height: 320px;
-float: right;
-margin-bottom: 30px;
-text-align: center;
-size:3px;
-text-decoration: none;
-
-
-
+#sneaker {
+	width: 265px;
+	height: 320px;
+	float: right;
+	margin-bottom: 30px;
+	text-align: center;
+	size: 3px;
+	text-decoration: none;
 }
 
-#art
-{
-width: 265px;
-height: 320px;
-float: left;
-margin-bottom: 10px;
-text-align: center;
-size:3px;
-margin-top: 30px;
-text-decoration: none;
-
+#art {
+	width: 265px;
+	height: 320px;
+	float: left;
+	margin-bottom: 10px;
+	text-align: center;
+	size: 3px;
+	margin-top: 30px;
+	text-decoration: none;
 }
 
-#wallpaper
-{
-width: 265px;
-height: 320px;
-float: right;
-margin-bottom: 10px;
-text-align: center;
-size:3px;
-text-decoration: none;
-
-
+#wallpaper {
+	width: 265px;
+	height: 320px;
+	float: right;
+	margin-bottom: 10px;
+	text-align: center;
+	size: 3px;
+	text-decoration: none;
 }
-
-
-
 
 /* Loading */
 #preloader {
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	background-color:black; /* change if the mask should have another color then white */
-	z-index:99; /* makes sure it stays on top */
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black; /* change if the mask should have another color then white */
+	z-index: 99; /* makes sure it stays on top */
 }
 
 #status {
-	width:200px;
-	height:200px;
-	position:absolute;
-	left:50%; /* centers the loading animation horizontally one the screen */
-	top:50%; /* centers the loading animation vertically one the screen */
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%; /* centers the loading animation horizontally one the screen */
+	top: 50%; /* centers the loading animation vertically one the screen */
 	background-image: url(load.gif);
 	background-repeat: no-repeat;
-	background-position:center;
-	margin:-100px 0 0 -100px; /* is width and height divided by two */
+	background-position: center;
+	margin: -100px 0 0 -100px; /* is width and height divided by two */
 }
 
 div#loading {
-    top: 200 px;
-    margin: auto;
-    position: absolute;
-    z-index: 1000;
-    width: 16px;
-    height: 24px;
-    background: url(load.gif) no-repeat;
-    cursor: wait;
-    }
+	top: 200 px;
+	margin: auto;
+	position: absolute;
+	z-index: 1000;
+	width: 16px;
+	height: 24px;
+	background: url(load.gif) no-repeat;
+	cursor: wait;
+}
